@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".perfil">
+    <TextView
+        android:text="Estas en el perfil:te has registrado corectamente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/btnsignout"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Cerrar sesión"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"/>
+
+
+</LinearLayout>
